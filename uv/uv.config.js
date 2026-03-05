@@ -2,7 +2,7 @@ self.__uv$config = {
     prefix: '/service/',
 
     /* Bare server URL */ 
-    bare: 'https://tomp.app',
+    bare: 'http://localhost:8080/',
     
     encodeUrl: Ultraviolet.codec.xor.encode,
     decodeUrl: Ultraviolet.codec.xor.decode,
